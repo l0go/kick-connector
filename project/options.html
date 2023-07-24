@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Kick Connect: Options</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body class="options">
+        <h1>Kick Connect: Options</h1>
+        <table>
+            <thead>
+                <tr class="table-heading">
+                    <th>Kick Channel</th>
+                    <th>Twitch Channel</th>
+                </tr>
+            </thead>
+            <tbody id="channels">
+            </tbody>
+        </table>
+
+        <form>
+            <input id="kick-input" class="text-input" placeholder="Kick Channel Name" type="text" name="kick" required>
+            <input id="twitch-input" class="text-input" placeholder="Twitch Channel Name" type="text" name="twitch" required>
+            <input id="add" type="submit" href="#" class="button-accent" value="Add">
+        </form>
+        
+        <script src="kick-connector.js"></script>
+    </body>
+</html>

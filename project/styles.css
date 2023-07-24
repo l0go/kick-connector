@@ -1,0 +1,132 @@
+:root {
+	--background-color-1: #262629;
+	--background-color-2: #343438;
+	--accent-color: #1e7df0;
+	--accent-color-hover: #1763bf;
+	--accent-color-active: #1456a6;
+	--font-color-1: #e8ecef;
+	--button-color-1: #414141;
+	--button-color-hover: #515151;
+	--button-color-active: #616161;
+}
+
+/* Sections */
+body {
+    background-color: var(--background-color-1);
+    margin: 0;
+    font-family: Segoe UI,system-ui,-apple-system,sans-serif;
+}
+
+.popup {
+    background-color: #191B1F;
+    border: solid 2px #00FF00;
+    color: var(--font-color-1);
+    padding: 8px;
+    overflow: hidden;
+}
+
+.options {
+    color: var(--font-color-1);
+    background-color: #24272C;
+}
+
+.add-channel {
+    display: flex;
+    gap: 8px;
+    flex-direction: row;
+    margin-top: 12px;
+}
+
+/* Basic Buttons */
+.button-basic {
+	background-color: var(--button-color-1);
+	color: var(--font-color-1);
+	font-size: .95em;
+	padding-top: 6px;
+	padding-bottom: 6px;
+	padding-left: 38px;
+	padding-right: 38px;
+	border: none;
+	border-radius: 3px;
+	text-decoration: none;
+}
+
+.button-basic:hover {
+	background-color: var(--button-color-hover);
+}
+
+.button-basic:active {
+	background-color: var(--button-color-active);
+}
+
+.button-accent {
+	background-color: var(--accent-color);
+	color: var(--font-color-1);
+	font-size: .95em;
+	padding-top: 6px;
+	padding-bottom: 6px;
+	padding-left: 38px;
+	padding-right: 38px;
+	border: none;
+	border-radius: 3px;
+	text-decoration: none;
+}
+
+.button-accent:hover {
+	background-color: var(--accent-color-hover);
+}
+
+.button-accent:active {
+	background-color: var(--accent-color-active);
+}
+
+/* Text Input */
+.text-input {
+	background-color: var(--button-color-1);
+	border: 2px solid var(--button-color-hover);
+	color: var(--font-color-1);
+	font-size: .95em;
+	padding-top: 6px;
+	padding-bottom: 6px;
+	padding-left: 12px;
+	padding-right: 12px;
+	border-radius: 4px;
+	text-decoration: none;
+}
+
+.text-input:focus {
+	outline: none;
+	border: 2px solid var(--accent-color);
+}
+
+/* Tables */
+.table-heading {
+    background-color: var(--accent-color);
+}
+
+td {
+    background-color: var(--background-color-2);
+}
+
+th, td {
+    padding-top: 6px;
+	padding-bottom: 6px;
+	padding-left: 38px;
+	padding-right: 38px;
+}
+
+/* Popup Options Button */
+#options-button {
+    cursor: pointer;
+}
+
+#options-button svg {
+    fill: #24272C;
+    stroke: #00FF00;
+    stroke-width: 0.5px;
+    transition: transform .7s ease-in-out;
+}
+
+#options-button:hover svg {
+    transform: rotate(360deg);
+}

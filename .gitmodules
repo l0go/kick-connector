@@ -1,0 +1,3 @@
+[submodule "vendor/hxWebSockets"]
+	path = vendor/hxWebSockets
+	url = https://github.com/ianharrigan/hxWebSockets
