@@ -14,7 +14,6 @@ class Options {
 			var twitch:js.html.InputElement = cast Browser.document.getElementById("twitch-input");
 
 			if (kick.value != "" && twitch.value != "") {
-				trace(kick.value);
 				addChannel(kick.value, twitch.value);
 			}
 		}
@@ -49,7 +48,8 @@ class Options {
 		var channelsSerialize = storage.getItem("channels");
 		if (channelsSerialize == null) {
 			addChannel("yms", "adumplaze");
-		}
+		    Browser.location.reload();
+        }
 		channels = haxe.Unserializer.run(channelsSerialize);
 	}
 }

@@ -1,6 +1,6 @@
 {
   "manifest_version": 3,
-  "name": "Kick Twitch Bridge",
+  "name": "Kick Connector",
   "description": "Replaces Kick Chat with one that also bridges Twitch",
   "version": "0.0.1",
   "content_scripts": [
@@ -41,5 +41,10 @@
     "64": "icons/64.png",
     "128": "icons/128.png",
     "256": "icons/256.png"
+  },
+  "browser_specific_settings": {
+      "gecko": {
+          "id": "kickconnector@logo4poop.github.io"
+      }
   }
 }

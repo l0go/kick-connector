@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="8.4667044mm"
+   height="8.466773mm"
+   viewBox="0 0 8.4667044 8.466773"
+   version="1.1"
+   id="svg5"
+   inkscape:version="1.2.2 (b0a8486541, 2022-12-01)"
+   sodipodi:docname="icon.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:zoom="4.9725344"
+     inkscape:cx="-4.7259603"
+     inkscape:cy="26.746924"
+     inkscape:window-width="1312"
+     inkscape:window-height="712"
+     inkscape:window-x="0"
+     inkscape:window-y="25"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs2">
+    <rect
+       x="23.165709"
+       y="30.887609"
+       width="48.154766"
+       height="26.97279"
+       id="rect327" />
+  </defs>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(2.2522495e-4,4.8924187e-5)">
+    <rect
+       style="fill:#141414;fill-opacity:1;stroke:#00ff00;stroke-width:0.237182;stroke-dasharray:none;stroke-opacity:1"
+       id="rect163"
+       width="7.588088"
+       height="7.5881472"
+       x="1.3905045"
+       y="-0.80060893"
+       rx="2.3712776"
+       transform="matrix(0.96592525,0.25882121,-0.25881689,0.9659264,0,0)"
+       inkscape:export-filename="project/icons/256.png"
+       inkscape:export-xdpi="767.99652"
+       inkscape:export-ydpi="767.99652" />
+    <text
+       xml:space="preserve"
+       transform="matrix(0.24394538,0,0,0.24409071,-4.4104801,-5.409744)"
+       id="text325"
+       style="font-size:13.0113px;white-space:pre;shape-inside:url(#rect327);display:inline;fill:#00ff00;fill-opacity:1"><tspan
+         x="23.166016"
+         y="43.403024"
+         id="tspan564"><tspan
+           style="font-weight:bold;font-family:'Libre Franklin';-inkscape-font-specification:'Libre Franklin Bold'"
+           id="tspan562">K_c</tspan></tspan></text>
+  </g>
+</svg>
